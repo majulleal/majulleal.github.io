@@ -1,0 +1,160 @@
+/* Importação de fontes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Estilo geral */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #e6f7ff;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container principal */
+.container {
+    width: 800px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabeçalho */
+h1 {
+    font-size: 1.8em;
+    color: #0055a5;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+h2 {
+    color: #0055a5;
+    font-weight: 700;
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p, li, dd {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+/* Imagem e figcaption */
+figure {
+    text-align: center;
+    margin: 0;
+}
+
+figure img {
+    border-radius: 10%;
+    border: 3px solid #98c6f1;
+    width: 120px;
+    height: auto;
+}
+
+figcaption {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 5px;
+}
+
+/* Navegação e links */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    margin: 5px 0;
+}
+
+a {
+    color: #0055a5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0096d6;
+    text-decoration: underline;
+}
+
+/* Seções */
+.section {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f7fcff;
+    border-left: 5px solid #0055a5;
+    border-radius: 8px;
+}
+
+.section h2 {
+    color: #0055a5;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.section p, .section ul, .section ol, .section dl {
+    margin-left: 20px;
+}
+
+/* Seção ODS */
+.ods-section {
+    text-align: center;
+}
+
+.ods-section img {
+    width: 100px;
+    height: auto;
+}
+
+/* Listas e estilo de habilidades */
+ol, ul {
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+ol li, ul li {
+    margin-bottom: 5px;
+}
+
+/* Tabelas e Educação */
+dl {
+    background-color: #e0f7fa;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+dt {
+    font-weight: bold;
+    color: #333;
+}
+
+dd {
+    margin-left: 20px;
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 20px;
+}
+
+/* Seletor de atributo */
+a[href*="linkedin"] {
+    color: #0a66c2;
+    font-weight: bold;
+}
